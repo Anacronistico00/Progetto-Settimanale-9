@@ -15,5 +15,51 @@ body {
   background-color: rgb(22, 22, 22) !important;
 }
 
-@import '~slick-carousel/slick/slick.css';
-@import '~slick-carousel/slick/slick-theme.css';
+.textInput::placeholder {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 16 16'%3e%3cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001a1.007 1.007 0 0 0-.057.052l-3.85 3.85a1 1 0 0 0 1.414 1.414l3.85-3.85a1.007 1.007 0 0 0 .052-.057v-.001zm-5.242.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z'/%3e%3c/svg%3e")
+    no-repeat left 10px center;
+  padding-left: 35px; /* Spazio per l'icona */
+}
+
+.sideMenuItem:hover {
+  background-color: rgb(53, 53, 53);
+}
+
+.player {
+  border-radius: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  background-color: rgb(34, 34, 34);
+  z-index: 1;
+}
+
+.player img {
+  width: 80px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.player i {
+  font-size: 2.5em;
+}
+
+.playerMd div {
+  height: 50px;
+}
+
+.bi-shuffle,
+.bi-repeat {
+  font-size: 12px;
+}
+
+.bi-rewind-fill,
+.bi-play-fill,
+.bi-fast-forward-fill {
+  font-size: 22px;
+}
+
+.playerButton {
+  height: 30px;
+}

@@ -9,7 +9,7 @@ const CardsComponent = () => {
         <hr />
       </Container>
       <Container fluid className='d-flex newsContainer'>
-        <Row xs={2} md={3}>
+        <Row xs={2} lg={3}>
           <Col className='p-1'>
             <CardComponent
               src='src\assets\images\1a.png'
@@ -22,7 +22,7 @@ const CardsComponent = () => {
               description='Ecco la nuova casa della musica latina'
             />
           </Col>
-          <Col className='p-1 d-none d-md-block'>
+          <Col className='p-1 d-none d-lg-block'>
             <CardComponent
               src='src\assets\images\1c.png'
               description='Le ultime novità in fatto di Club House'
